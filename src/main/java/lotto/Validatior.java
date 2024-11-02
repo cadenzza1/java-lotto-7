@@ -1,11 +1,11 @@
-package lotto.view;
+package lotto;
 
 import camp.nextstep.edu.missionutils.Console;
 
-public class InputView {
+public class Validatior {
     public static final int THOUSAND = 1000;
 
-    public int inputPurchasePrice(){
+    public static int purchasePriceValidator(){
         while(true){
             try{
                 int purchasePrice = Integer.parseInt(Console.readLine());
